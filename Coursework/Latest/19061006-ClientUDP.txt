@@ -1,0 +1,16 @@
+Welcome to 7COM1076/31. Created for education purposes only for students of UH by O.F
+root@ubuntu:~/Desktop/Task04# iperf -c 147.197.29.7 -u -p 5612 -t 10 -b 100M -n 2048M
+------------------------------------------------------------
+Client connecting to 147.197.29.7, UDP port 5612
+Sending 1470 byte datagrams, IPG target: 112.15 us (kalman adjust)
+UDP buffer size:  208 KByte (default)
+------------------------------------------------------------
+[ 45] local 147.197.29.5 port 33244 connected with 147.197.29.7 port 5612
+[ ID] Interval       Transfer     Bandwidth
+[ 45]  0.0-394.0 sec  2.00 GBytes  43.6 Mbits/sec
+[ 45] Sent 1460874 datagrams
+[ 45] Server Report:
+[ 45]  0.0-394.0 sec  2.00 GBytes  43.6 Mbits/sec   6.273 ms  29,753/1460874  (2.0%)
+[ 45] 0.0-394.0 sec  1498 datagrams received out-of-order
+
+

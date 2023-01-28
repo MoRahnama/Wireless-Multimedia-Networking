@@ -1,0 +1,17 @@
+*** Creating network
+*** Adding controller
+Connecting to remote controller at 127.0.0.1:6653
+*** Adding hosts:
+h1 h2 h3 h4 h5 h6 h7 h8 
+*** Adding switches:
+Switch1 Switch2 Switch3 Switch4 Switch5 Switch6 Switch7 Switch8 Switch9 Switch10 Switch11 
+*** Adding links:
+(Switch1, Switch2) (Switch1, Switch9) (Switch2, Switch5) (Switch2, Switch9) (Switch2, Switch10) (Switch4, Switch3) (Switch5, Switch6) (Switch5, Switch10) (Switch5, Switch11) (Switch6, Switch11) (Switch7, Switch4) (Switch8, Switch7) (Switch9, Switch3) (Switch9, Switch4) (Switch9, Switch10) (Switch10, Switch4) (Switch10, Switch7) (Switch10, Switch11) (Switch11, Switch7) (Switch11, Switch8) (h1, Switch1) (h2, Switch2) (h3, Switch3) (h4, Switch4) (h5, Switch5) (h6, Switch6) (h7, Switch7) (h8, Switch8) 
+*** Configuring hosts
+h1 h2 h3 h4 h5 h6 h7 h8 
+*** Starting controller
+c0 
+*** Starting 11 switches
+Switch1 Switch2 Switch3 Switch4 Switch5 Switch6 Switch7 Switch8 Switch9 Switch10 Switch11 ...
+*** Starting CLI:
+

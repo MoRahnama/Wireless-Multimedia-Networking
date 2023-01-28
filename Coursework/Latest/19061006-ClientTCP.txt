@@ -1,0 +1,9 @@
+Welcome to 7COM1076/31. Created for education purposes only for students of UH by O.F
+root@ubuntu:~/Desktop/Task01# iperf -c 10.0.0.4 -p 7891 -t 10 -n 1024M
+------------------------------------------------------------
+Client connecting to 10.0.0.4, TCP port 7891
+TCP window size: 85.3 KByte (default)
+------------------------------------------------------------
+[ 24] local 10.0.0.3 port 43762 connected with 10.0.0.4 port 7891
+[ ID] Interval       Transfer     Bandwidth
+[ 24]  0.0-164.7 sec  1.00 GBytes  52.1 Mbits/sec
